@@ -206,7 +206,7 @@
 - 使用QLoRA训练Baichuan2时，需要安装torch==2.0，并且卸载xformers和apex。
 - 使用QLoRA训练Qwen时，需将flash-attn卸载，否则会报错。
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 如果需要开启Unsloth，建议安装或者更新以下Python包：
